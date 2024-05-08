@@ -1,6 +1,6 @@
 {
 
-    const logString = (input:string | number):void => {
+    const logString = (input:unknown):void => {
         if (typeof input === "string") {
             console.log(input);
         } else {
